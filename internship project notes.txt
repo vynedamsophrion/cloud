@@ -1,0 +1,25 @@
+internship project
+
+
+   IAM USER
+	SIGN IN URL : https://836192636478.signin.aws.amazon.com/console
+	USER NNAME: queryedtior
+	PASSWORD : Surya#7$
+=
+
+end point:   port:3306
+
+
+
+  
+ec2 password : 8qTg&bmz1tYxLEQlsrSR0UeauOzg122!
+database identifier: DB1
+username:admin
+password:Webform#7$
+
+database end point: 	db1.che40qucwfnn.ap-southeast-2.rds.amazonaws.com
+
+instance public ipv4 address: 54.252.194.199
+
+
+mysql -h db1.che40qucwfnn.ap-southeast-2.rds.amazonaws.com -u admin -p
