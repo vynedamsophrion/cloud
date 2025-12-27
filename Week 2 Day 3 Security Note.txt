@@ -1,0 +1,15 @@
+My Security Note:
+
+When I created my custom VPC in AWS, my main goal was to make sure my setup was safe and well-controlled. A VPC (Virtual Private Cloud) lets me build my own private network inside AWS, which means I can control how my resources connect and who can access them.
+
+Inside my VPC, I made one public subnet to host my EC2 instance. The subnet is connected to the internet through an Internet Gateway, but I limited what kind of traffic can reach it. This helps protect my instance from unwanted access.
+
+For extra protection, I set up a Security Group, which acts like a firewall. I only allowed two types of connections:
+
+HTTP (port 80): so people can access the web server.
+
+SSH (port 22): so I can connect to the instance securely from my own computer.
+
+All other ports are blocked, which keeps the instance safer. I also limited SSH access to my own IP address, so no one else can log in remotely.
+
+Overall, this setup helps me follow the rule of giving only the needed access and nothing more. My VPC provides a secure network boundary, and the security group adds another layer of protection. This way, my EC2 instance is available for what it needs to do but still well protected from outside threats.
