@@ -1,0 +1,5 @@
+					AWS CLI and CloudWatch Lab Summary
+
+Today, I installed the AWS Command Line Interface (CLI) and configured it using my IAM credentials. Once setup was complete, I successfully used the CLI to list my active EC2 instances and S3 buckets. This process helped me understand how AWS resources can be managed efficiently through automation, without relying solely on the web console.
+Next, I created a CloudWatch alarm to monitor the CPU utilization of my EC2 instance. I configured the alarm to trigger if CPU usage exceeds 20% over a 5-minute period. After deploying the alarm, I verified its presence and status in the CloudWatch dashboard, where it appeared as expected and showed a status of “OK.”
+Through this exercise, I gained practical experience in using AWS CLI for resource management and learned how CloudWatch can be used to monitor system performance in real time. The ability to automate monitoring and receive alerts based on defined thresholds is a valuable feature for maintaining system reliability and responding to potential issues proactively.
